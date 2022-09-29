@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to right, rgb(182, 243, 190), rgb(108, 165, 204));
+    font-family: Arial, Helvetica, sans;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}

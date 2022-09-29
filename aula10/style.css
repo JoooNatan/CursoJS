@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(233, 169, 169), rgb(173, 192, 233));
+}
+
+main {
+    background-color: #fff;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(108, 121, 148, 0.774);
+}
+
+input {
+    font: normal 15pt Arial;
+    width: 130px;
+}
+
+div#res {
+    margin-top: 20px;
+}
+
+div#resM {
+    margin-top: 20px;
+}

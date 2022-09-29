@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 09</title>
+</head>
+<body>
+    <h1>BR ou Estrangeiro?</h1>
+    <p>Em que pais voce esta?</p>
+    <input type="text" name="txt1" id="txt1">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+    <script>
+        function verificar() {
+            var txt = document.getElementById('txt1')
+            var res = document.querySelector('div#res')
+            
+            res.innerHTML = `Pais atual ${txt}`
+            if (txt == 'Brasil') {
+                res.innerHTML += 'Brasileiro'
+            }
+            else {
+                rex.innerHTML += 'Estrangeiro'
+            }
+        }
+    </script>
+</body>
+</html>
