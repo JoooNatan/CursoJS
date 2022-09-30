@@ -1,4 +1,4 @@
-/*let amigo = {
+let amigo = {
     nome: 'Jose',
     sexo: 'M',
     peso: 85.4,
@@ -9,8 +9,4 @@
 }
 
 amigo.engordar(2)
-console.log(`${amigo.nome} pesa ${amigo.peso}`)*/
-
-let num = 8
-num **= 2
-console.log(num)
+console.log(`${amigo.nome} pesa ${amigo.peso}`)
