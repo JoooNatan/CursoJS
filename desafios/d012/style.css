@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right, #000000, #242424)
+    background-image: linear-gradient(to right, #0d4c8686, #af48a18c)
 }
 
 main {
@@ -10,6 +10,7 @@ main {
     margin: auto;
     padding: 20px;
     border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.39);
 }
 
 main > h1 {

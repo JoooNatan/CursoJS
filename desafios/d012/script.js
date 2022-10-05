@@ -11,9 +11,12 @@ function Verificar() {
     if (precoAntes > precoDepois) {
          res.innerHTML += `O produto custava R$${precoAntes.toLocaleString('pt-BR')} e agora custa R$${precoDepois.toLocaleString('pt-BR')}.`
          res.innerHTML += `<p>Hoje o produto está mais barato.</p>`
-         res.innerHTML += `<p>O preço diminuiu R$${(precoAntes - precoDepois).toLocaleString('pt-BR')}</p>`
-         res.innerHTML += `<p>Uma variação de ${} para baixo.</p>`
+         res.innerHTML += `<p>O preço diminuiu R$${(precoAntes - precoDepois).toLocaleString('pt-BR')} em relação ao preço anterior.</p>`
+         res.innerHTML += `<p>Uma variação de ${(100 * (precoAntes - precoDepois) / precoAntes).toFixed(2)}% para baixo.</p>`
     } else {
-
+        res.innerHTML += `O produto custava R$${precoAntes.toLocaleString('pt-BR')} e agora custa R$${precoDepois.toLocaleString('pt-BR')}.`
+         res.innerHTML += `<p>Hoje o produto está mais caro.</p>`
+         res.innerHTML += `<p>O preço aumentou R$${(precoDepois - precoAntes).toLocaleString('pt-BR')} em relação ao preço anterior.</p>`
+         res.innerHTML += `<p>Uma variação de ${(100 * (precoDepois - precoAntes) / precoDepois).toFixed(2)}% para cima.</p>`
     }
 }
