@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(to right, #000000, #242424)
+}
+
+main {
+    font-family: monospace;
+    font-size: 1.2em;
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+input {
+    height: 50px;
+}
