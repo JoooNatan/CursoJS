@@ -1,0 +1,24 @@
+body {
+    background-image: linear-gradient(to right, #88bdfa, #29668f);
+}
+
+main {
+    font-family: arial,sans-serif;
+    background-color: white;
+    width: 500px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #0000006b;
+    /*color: #05a000;
+    color: #71ff6494;*/
+}
+
+main > h1 {
+    text-align: center;
+}
+
+input {
+    height: 50px;
+    font-size: 0.9em;
+}
